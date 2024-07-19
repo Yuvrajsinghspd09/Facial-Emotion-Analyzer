@@ -35,39 +35,30 @@ The dataset used for this project is the [Face Expression Recognition Dataset](h
 
 
 
-Requirements:
+**Requirements**:
+-TensorFlow
+-Numpy
+-Matplotlib
 
-TensorFlow
-
-Numpy
-
-Matplotlib
-
-
-You can install the required libraries using :
+**You can install the required libraries using**:
 
 pip install tensorflow numpy matplotlib
 
-
-Usage:
-
+**Usage**
 Prepare Your Environment:
 
-Ensure you have the necessary libraries installed.
+-Ensure you have the necessary libraries installed.
+-Download the dataset and adjust the train_dir and validation_dir paths if necessary.
 
-Download the dataset and adjust the train_dir and validation_dir paths if necessary.
+**Run the Code**:
 
-Run the Code:
+-Execute the script to train the model and generate the plots.
+-The trained model will be saved as facial_emotion_model.h5.
 
-Execute the script to train the model and generate the plots.
+**Analyze Results**:
 
-The trained model will be saved as facial_emotion_model.h5.
+-Review the training and validation accuracy and loss plots to assess model performance.
 
-Analyze Results:
+**Acknowledgements**:
 
-Review the training and validation accuracy and loss plots to assess model performance.
-
-
-Acknowledgements
-
-The dataset used in this project is provided by Kaggle.
+-The dataset used in this project is provided by Kaggle.
