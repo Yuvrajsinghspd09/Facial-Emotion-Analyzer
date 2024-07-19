@@ -10,39 +10,42 @@ The dataset used for this project is the [Face Expression Recognition Dataset](h
 
 ## Code Overview
 
-1. **Imports and Setup**:
-   - Import necessary libraries.
-   - Set random seeds for reproducibility.
-   - Define constants including image size, batch size, number of epochs, and number of classes.
+- **Imports and Setup**:
+  - Import necessary libraries.
+  - Set random seeds for reproducibility.
+  - Define constants including image size, batch size, number of epochs, and number of classes.
 
-2. **Data Preparation**:
-   - Create data generators for training and validation datasets.
-   - Apply data augmentation techniques such as rotation, width shift, height shift, shear, zoom, and horizontal flip.
+- **Data Preparation**:
+  - Create data generators for training and validation datasets.
+  - Apply data augmentation techniques such as rotation, width shift, height shift, shear, zoom, and horizontal flip.
 
-3. **Model Creation**:
-   - Define a CNN model with convolutional layers, batch normalization, max pooling, and dense layers.
-   - Compile the model with the Adam optimizer and categorical crossentropy loss function.
+- **Model Creation**:
+  - Define a CNN model with convolutional layers, batch normalization, max pooling, and dense layers.
+  - Compile the model with the Adam optimizer and categorical crossentropy loss function.
 
-4. **Model Training**:
-   - Train the model using the training and validation data generators.
-   - Measure and print the training time.
+- **Model Training**:
+  - Train the model using the training and validation data generators.
+  - Measure and print the training time.
 
-5. **Model Saving**:
-   - Save the trained model to a file named `facial_emotion_model.h5`.
+- **Model Saving**:
+  - Save the trained model to a file named `facial_emotion_model.h5`.
 
-6. **Plotting Training History**:
-   - Plot training and validation accuracy and loss over epochs.
+- **Plotting Training History**:
+  - Plot training and validation accuracy and loss over epochs.
 
+## Requirements
 
+- **TensorFlow**
+- **Numpy**
+- **Matplotlib**
 
-**Requirements**:
--TensorFlow
--Numpy
--Matplotlib
+You can install the required libraries using:
 
-**You can install the required libraries using**:
-
+```bash
 pip install tensorflow numpy matplotlib
+
+
+
 
 **Usage**
 Prepare Your Environment:
