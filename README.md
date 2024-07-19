@@ -44,18 +44,20 @@ You can install the required libraries using:
 ```bash
 pip install tensorflow numpy matplotlib
 
-
+```
 
 
 **Usage**
 Prepare Your Environment:
 
 -Ensure you have the necessary libraries installed.
+
 -Download the dataset and adjust the train_dir and validation_dir paths if necessary.
 
 **Run the Code**:
 
 -Execute the script to train the model and generate the plots.
+
 -The trained model will be saved as facial_emotion_model.h5.
 
 **Analyze Results**:
