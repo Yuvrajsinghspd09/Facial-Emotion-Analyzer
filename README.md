@@ -65,4 +65,3 @@ Review the training and validation accuracy and loss plots to assess model perfo
 
 Acknowledgements
 The dataset used in this project is provided by Kaggle.
-Dataset Link - https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
