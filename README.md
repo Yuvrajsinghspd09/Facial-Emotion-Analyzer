@@ -1,6 +1,3 @@
-# Facial-Emotion-Analyzer
-
-
 
 
 # Facial Emotion Recognition Model
