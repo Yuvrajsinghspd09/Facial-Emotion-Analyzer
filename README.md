@@ -4,6 +4,19 @@
 
 This project implements a convolutional neural network (CNN) for facial emotion recognition using TensorFlow and Keras. The model is trained to classify facial expressions into one of seven predefined emotion categories.
 
+## Try the Model
+
+You can test the model by visiting the following link:
+
+[Try the Facial Emotion Detection Model](https://huggingface.co/spaces/Yuvrajspd09/emotion-analyzer)
+
+### Test Images
+
+To test the model, download the following images and upload them when prompted:
+
+- [Angry Test Image](https://github.com/Yuvrajsinghspd09/Facial-Emotion-Analyzer/blob/main/Angry_test_image.jpg)
+- [Fear Test Image](https://github.com/Yuvrajsinghspd09/Facial-Emotion-Analyzer/blob/main/Fear_test_image.jpg)
+
 ## Dataset
 
 The dataset used for this project is the [Face Expression Recognition Dataset](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset). It contains images of facial expressions categorized into seven classes: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral.
